@@ -1,0 +1,9 @@
+body {display: block;
+    width: 700px;
+      margin: auto;}
+table {margin: auto;
+       flex-direction: column;}
+.input-submit {text-align: center;}
+
+
+

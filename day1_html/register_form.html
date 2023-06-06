@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Homework#2</title>
+    <link rel="stylesheet" href="register_form.css">
+</head>
+
+<body>
+    <form action="http://127.0.0.1:5500/register_form.html" method="get">
+        <fieldset>
+          <legend>Request Form:</legend>
+          <table style="float: inline-start;">
+            <tr>
+            <td><p>Firstname:</p></td>
+            <td><input type="text" name="fname"></td>
+            </tr>
+            <tr>
+            <td><p>Lastname:</p></td>
+            <td><input type="text" name="Lname"></td>
+            </tr>
+            <tr>
+            <td><p>Password:</p></td>
+            <td><input type="password"></td>
+            </tr>
+            <tr>
+            <td><p>Confirm Password:</p></td>
+            <td><input type="password"></td>
+            </tr>
+            <tr>
+            <td><p>Email:</p></td>
+            <td><input type="email"></td>
+            </tr>
+            <tr>
+            <td><p>Confirm Email:</p></td>
+            <td><input type="email"></td>
+            </tr>
+            <tr>
+            <td><p>Birthday:</p></td>
+            <td><input style="width: 40px;" type="number" min="1" max="31">
+            <input style="width: 40px;"="number" min="1" max="12">
+            <input style="width: 57px;" type="number" min="1980" max="2005"></td>
+            </tr>
+            <tr>
+            <td><p>Gender</p></td>
+            <td><input type="radio" name="Gender" value= "Male" checked>Male
+            <input type="radio" name="Gender" value= "Female">Female</td>
+            </tr>
+        </table>
+            <div class="input-submit">
+            <input type="submit" value="Submit">&nbsp;&nbsp;<input type="reset" value="Reset"> 
+            </div>  
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
