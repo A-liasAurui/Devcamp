@@ -1,0 +1,99 @@
+*{box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;}
+
+nav {display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:relative;
+    background-color: white;
+
+}
+
+nav img { height: 80px; width: 80px;}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 5px;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    margin: 0;
+    position: relative;
+    background-image: url(https://scontent.fbkk12-5.fna.fbcdn.net/v/t1.6435-9/81976423_2780157608710616_6706264349469573120_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=19026a&_nc_eui2=AeHBRyTMyvFKvqW7GGQFAGlx6pX7KUnbqe7qlfspSdup7gFMuYN0SlWr8KTnQsWCmAZ7xUlXEaxgc-9SToLOtS09&_nc_ohc=BmElaEAKtf0AX91-XRo&_nc_ht=scontent.fbkk12-5.fna&oh=00_AfCKGNkiZGkr2Jtsjd96Jp5O9itX-QNaTg-TG3etxQSLzg&oe=64AACC6F)
+    ;background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.container fieldset {
+    height: 250px;
+    width: 250px;
+    border-color: white;
+    border: 5px;
+    border-style: solid;
+
+}
+
+.container legend {
+    text-align: justify;
+
+}
+.fieldsetbox {
+    display: flex;
+    padding: 15px;
+    margin-left: 200px;
+    margin-top: 45px;
+    justify-content:start;
+    border-style: solid;
+    border: 5px;
+    border-color: white;
+    flex-wrap: wrap;
+}
+.fieldsetbox h2 {font-size: medium;
+padding: 10px; text-transform: capitalize;}
+
+.fieldsetbox p {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.button {margin-left: 200px;
+    width: 150px;
+    color: black;
+    padding: 15px;}
+.details    {
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    align-items: center;
+} 
+.details img {height: 300px;
+width: 300px
+; margin-left: 150px;
+margin-top: -20px;
+margin-right: 40px;
+padding: 15px;
+
+}
+.inbox { 
+    display:flex;
+    justify-content: column;
+    height: 300px;
+    width: 300px
+    ; margin-left: 30px;}
