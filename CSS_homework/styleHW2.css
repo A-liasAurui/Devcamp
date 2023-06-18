@@ -128,11 +128,14 @@ main .greenbox img {
     flex-direction: column;
     text-align: center;
     margin: 50px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.352); 
 }
+
 .option .div1 img {
     margin-left: 45px;
     width: 60px;
     height: 60px;
+    margin-bottom: 10px;
 }
 .option .div1 h2 {
     font-size: 15px;
@@ -169,7 +172,7 @@ main .greenbox img {
     height: 200px;
     margin-top: 30px;
     transform: translate(-25% , 20%);
-    box-shadow: gray;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3)
 }
 .our .box3 {
     background-color: rgba(39, 174, 158, 0.751)
@@ -180,7 +183,7 @@ main .greenbox img {
     width: 80%;
     height: 200px;
     padding: 20px;
-    background-color: white;
+    
     color: rgb(81, 80, 80);
 }
 .our .box4 input {
@@ -189,4 +192,73 @@ main .greenbox img {
     background-color: rgb(39, 174, 158);
     padding: 15px;
     margin-top: 50px;
+}
+
+.op {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.op .div1 {
+    background-color:  white;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    color: rgb(112, 110, 110);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 50px;
+}
+.op .div1 img {
+    margin-left: 20px;
+    width: 60px;
+    height: 60px;
+}
+.op .div1 h2 {
+    text-decoration: line-through rgba(73, 236, 236, 0.507) solid 35%;
+    margin: 10px;
+    font-size: 15px;
+}
+.opt .div1 p {
+    font-size: 12px;
+    padding-top: 20px;}
+footer {
+        display: flex;
+        height: 300px;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+footer .div1 {
+        width: 150px;
+        height: 150px;
+        padding: 15px;
+        color: gray;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 70px; 
+    }
+footer .div1 h1 {
+        padding-bottom: 20px;
+    }
+footer .div1 img {
+        width: 60px;
+        height: 60px;
+    }
+footer .div1 p {
+        font-size: 12px;
+    }
+footer .div1 .pi {
+       display: flex;
+}
+footer .div1 .pi img {
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin: none;
+    margin-top: 20px;
 }
